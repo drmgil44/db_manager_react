@@ -1,13 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom"
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import LandingPage from './components/views/LandingPage/LandingPage';
+import TestPage from './components/Test';
 
 function App() {
   return (
@@ -21,7 +17,7 @@ function App() {
           of them to render at a time
         */}
         <Switch>
-          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/" component={TestPage} />
           <Route path="/about" component={LandingPage} />
           <Route path="/dashboard" component={LandingPage} />
         </Switch>
