@@ -1,7 +1,7 @@
 # db-manager-react
 - w db_manager_py
 
-# Env & Tools
+# Front End
 - React
 - Visual Studio Code
 - Prettier, ESLint
