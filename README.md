@@ -1,9 +1,12 @@
 # db-manager-react
+- w db_manager_py
+
+# Env & Tools
 - React
 - Visual Studio Code
 - Prettier, ESLint
 - Google Chrome
-- w db_manager_py
+
 ------
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
